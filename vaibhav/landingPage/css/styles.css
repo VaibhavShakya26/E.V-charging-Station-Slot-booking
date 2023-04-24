@@ -1,0 +1,345 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    padding-left: 5%;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+h1 {
+    padding: 5%;
+    font-weight: 900;
+    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h3 {
+    padding-top: 2%;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto 3% auto;
+    padding-top: 10%;
+}
+
+.read-button {
+    background-color: #646FD4;
+    margin: 5% 5% 5% 0;
+    padding: 2% 5% 2% 5%;
+ }
+
+ #services-section {
+    text-align: center;
+ }
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 4% 0 4%;
+    background-color: #242F9B; 
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+}   
+
+.navbar-brand {
+    font-family: 'Phudu', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.nav-item {
+    padding: 1.5rem 1.5rem 0 auto;
+}
+
+.nav-link {
+    size: 1.2rem;
+}
+
+ /* Title */
+
+#title {
+    background-color: #242F9B;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.title-cols {
+    padding: 2% 0 2% 4%;
+    margin: 0 auto 0 auto;
+ }
+
+#title-img {
+    width: 90%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5), -2px -2px 5px rgb(0, 0, 0, 0.5);
+ }
+
+ #title-button {
+    margin: 5%;
+    padding: 2% 5% 2% 5%;
+ }
+
+ /* About Section */
+
+ #about-img {
+    width: 70%;
+    border-radius: 3%;
+ }
+
+ .about-h1 {
+    padding-left: 0;
+    padding-top: 3%;
+    color: #251749;
+ }
+
+ #about-image {
+    text-align: center;
+    
+ }
+ 
+ .about-ul {
+    padding-top: 10px;
+    margin-bottom: 0;
+    list-style-type: none;
+ }
+
+ .about-h5 {
+    padding-left: 0;
+    color: #242F9B;
+    font-weight: bold;
+ }
+
+ .about-ul-li {
+    margin : 2% 0 2% 0;
+ }
+
+ /* Why Us Section */
+
+ #why-section {
+    background-image: url('scooterCharging.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+ }
+
+ .why-container {
+    margin: 0 auto 0 auto;
+    padding: 10%;
+    background:rgba(0,0,0,0.6);
+ }
+
+ .why-content {
+    font-size:30px;
+ }
+
+ #earth-logo {
+    text-align: center;
+    padding: 4rem 0 4rem 8rem;
+    font-size: 9rem;
+ }
+
+#why-h5 {
+    font-weight: bold;
+} 
+
+#why-p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2;
+    padding-left: 5%;
+}
+ 
+#why-button {
+    margin: 5%;
+    padding: 2% 5% 2% 5%;
+}
+
+/* Services Section */
+
+
+.services-button {
+    margin: 5%;
+    padding: 2% 5% 2% 5%;
+}
+
+.services-card {
+    border: none;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.services-container {
+    margin-top: 0;
+    padding: 0.5rem;
+}
+
+.card-title {
+    font-weight: 500;
+    padding: 2%;
+}
+
+.card-text {
+    padding: 2%;
+    padding-top: 0;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-1-services {
+    height: 101%;
+}
+
+/* Footer Section */
+
+#footer-section {
+    background-color: #000;
+    color: #fff;
+    margin-top: auto;
+}
+
+#footer-brand {
+    font-family: 'Phudu', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0 5% 3% 5%;
+}
+
+.footer-container {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 2%;
+}
+
+.footer-content {
+    padding: 2% 20% 10% 10%;
+    font-weight: 400;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.footer-ul {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 0;
+}
+
+.footer-ul-li{
+    padding: 2% 20% 5% 0;
+}
+
+.footer-ul-li:hover {
+    font-weight: 600;
+}
+
+.footer-touch-li {
+    line-height: 2;
+}
+
+#footer-hr {
+    padding-bottom: 3%;
+    margin: 0 auto 0 auto;
+    border: 1px dashed;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    max-width: 90%;
+}
+
+#copyright {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Services  */
+
+#services-hr {
+    padding-bottom: 3%;
+    margin: 0 auto 0 auto;
+    border: 1px dashed;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    max-width: 90%;
+    color: #000;
+}
+
+/* About Page  */
+
+.about-page-title {
+    text-align: center;
+}
+
+.about-page-h1 {
+    padding: 20%;
+}
+
+.about-us-h5 {
+    margin: 5%;
+}
+
+.about-us-avatar {
+    width: 50%;
+}
+
+#about-end-section {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.about-us-container {
+    margin: 5%;
+}
+
+/* Services Page  */
+
+.services-page-image {
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5), -2px -2px 5px rgb(0, 0, 0, 0.5);
+}
+
+.services-page-p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    margin-left: 30px;
+}
+
+.services-page-row {
+    margin: 10% auto 10% auto;
+}
+
+/* Contact Page  */
+
+.contact-a {
+    color: #fff;
+}
+
+.contact-a:hover {
+    color:rgb(0, 0, 0, 0.5)
+}
+
+#contact-us-section {
+    background-color: #000;
+    color: #fff;
+}
